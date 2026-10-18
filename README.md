@@ -1,6 +1,6 @@
 # Essential Skills Faculty Guide
 
-A faculty resource for teaching the 10 Essential Skills in the **Kentucky Graduate Profile** from the Kentucky Council on Postsecondary Education (CPE). It's built by OCTC Instructional Design and uses the same branding as the [AI Literacy Faculty Playbook](https://octc-id.github.io/AI-literacy-guidebook-4264/).
+A faculty resource for teaching the 10 Essential Skills in the **Kentucky Graduate Profile** from the Kentucky Council on Postsecondary Education (CPE). It's built by OCTC Instructional Design and uses the same branding as the [AI Literacy Faculty Playbook](https://octc-instructional-design.github.io/ai-literacy-playbook/).
 
 ## The 10 Essential Skills
 
