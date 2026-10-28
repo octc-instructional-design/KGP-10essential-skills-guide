@@ -1953,9 +1953,17 @@ html {
    until their guides are built.
    ========================================================= */
 
+.skill-link {
+  position: relative;
+}
+
+/* status capsule sits in the card's top-right corner, out of the text */
 .skill-pill {
+  position: absolute;
+  top: 12px;
+  right: 14px;
   display: inline-block;
-  margin: 2px 0 4px;
+  margin: 0;
   padding: 2px 10px;
   border-radius: 999px;
   font-size: 0.72rem;
@@ -1993,4 +2001,9 @@ html {
 
 .skill-link.is-soon .skill-name {
   color: #3d4b58;
+}
+
+/* keep the skill number clear of the capsule */
+.skill-link .skill-num {
+  padding-right: 120px;
 }
