@@ -2,6 +2,11 @@
 
 A faculty resource for teaching the 10 Essential Skills in the **Kentucky Graduate Profile** from the Kentucky Council on Postsecondary Education (CPE). It's built by OCTC Instructional Design and uses the same branding as the [AI Literacy Faculty Playbook](https://octc-instructional-design.github.io/ai-literacy-playbook/).
 
+
+> **Status (October 2026):** The home page is the entrance to the whole set. Each skill is getting its own faculty guide, starting with Skill 8 ([Designing Collaboration That Works](https://octc-instructional-design.github.io/KGP-skill8-collaboration-guide/), repo `KGP-skill8-collaboration-guide`). The other nine skills show "Coming soon" on the home page.
+>
+> The earlier skill pages are parked in `_drafts/pages/`. GitHub Pages doesn't publish folders whose names start with an underscore, so they stay in the repo without going live. To bring one back, move it into `pages/` and turn its home-page card back into a link.
+
 ## The 10 Essential Skills
 
 Each skill has a fixed number, and the site always shows the number next to the name.

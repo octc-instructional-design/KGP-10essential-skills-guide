@@ -1945,3 +1945,52 @@ html {
   }
 }
 
+
+
+/* =========================================================
+   17. Skill guide status on the home page
+   Skill 8 links to its own guide; the rest show "Coming soon"
+   until their guides are built.
+   ========================================================= */
+
+.skill-pill {
+  display: inline-block;
+  margin: 2px 0 4px;
+  padding: 2px 10px;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 850;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  line-height: 1.5;
+}
+
+.skill-pill.ready {
+  background: var(--octc-blue-dark);
+  color: #fff;
+}
+
+.skill-pill.soon {
+  background: #fff;
+  color: #3d4b58;
+  border: 1px dashed #8a97a3;
+}
+
+/* Not a link yet: no hover lift, muted coin */
+.skill-link.is-soon {
+  cursor: default;
+}
+
+.skill-link.is-soon:hover {
+  transform: none;
+  box-shadow: none;
+}
+
+.skill-link.is-soon .skill-coin {
+  opacity: 0.55;
+  filter: grayscale(35%);
+}
+
+.skill-link.is-soon .skill-name {
+  color: #3d4b58;
+}
